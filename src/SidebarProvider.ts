@@ -25,15 +25,12 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
           if (!data.value) {
             return;
           }
-          const file = vscode.window.activeTextEditor?.document.fileName;
-          if(!(file === undefined)){
-            if(file.includes('.sol')){
-              vscode.commands.executeCommand("warpvs.transpile");
-            } else {
-              vscode.window.showErrorMessage("You are not in a .sol file");  
-            }
+          const lang = vscode.window.activeTextEditor?.document.languageId;
+          
+          if(lang === 'solidity'){
+            vscode.commands.executeCommand("warpvs.transpile");
           } else {
-            vscode.window.showErrorMessage("You are not in a .sol file");
+            vscode.window.showErrorMessage("You are not in a .sol file");  
           }
           break;
         }

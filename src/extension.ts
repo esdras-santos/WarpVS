@@ -1,5 +1,8 @@
 import * as vscode from 'vscode';
+import * as fs from 'fs';
+import * as path from 'path';
 import { SidebarProvider } from './SidebarProvider';
+import { BASE_PATH, compileCairo, compileSolFiles, createCairoProject, handleTranspilationError, outputResult, postProcessCairoFile, transpile } from './export';
 
 
 export function activate(context: vscode.ExtensionContext) {
@@ -18,7 +21,53 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 	}));
 	context.subscriptions.push(vscode.commands.registerCommand('warpvs.transpile', async () => {
-		await vscode.window.showInformationMessage('Transpiling')
+		const fpath = vscode.window.activeTextEditor?.document.uri.path.split('/')
+		fpath?.pop
+		const options = {
+			dev: false,
+			outputDir: `${fpath?.join('/')}/warp_output`,
+			debugInfo: false,
+			stubs: true,
+			strict: true,
+			warnings: true,
+			compileCairo: true,
+			formatCairo: false
+		  }
+		const f = vscode.window.activeTextEditor?.document.uri.path;
+		const ast = compileSolFiles([f!], options);
+		const contractToHashMap = new Map<string, string>();
+
+		try {
+			transpile(ast, options)
+			.map(([fileName, cairoCode]) => {
+				outputResult(path.parse(fileName).name, fileName, cairoCode, options, ast);
+				return fileName;
+			})
+			.map((file) =>
+				postProcessCairoFile(file, options.outputDir, options.debugInfo, contractToHashMap),
+			)
+			.forEach((file: string) => {
+				createCairoProject(path.join(options.outputDir, file));
+				if (options.compileCairo) {
+				const { success, resultPath, abiPath } = compileCairo(
+					path.join(options.outputDir, file),
+					BASE_PATH,
+					options,
+				);
+				if (!success) {
+					if (resultPath !== undefined) {
+					fs.unlinkSync(resultPath);
+					}
+					if (abiPath !== undefined) {
+					fs.unlinkSync(abiPath);
+					}
+				}
+				}
+			});
+		} catch (e) {
+			handleTranspilationError(e);
+		}
+		vscode.window.showInformationMessage('Solidty file succefully transpiled!')
 	}));
 }
 
