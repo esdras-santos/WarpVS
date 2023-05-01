@@ -10,17 +10,13 @@ import {
   StructDefinition,
   UserDefinedType,
 } from 'solc-typed-ast';
-import { CairoGeneratedFunctionDefinition } from '../../ast/cairoNodes';
-import {
-  CairoFunctionDefinition,
-  isDynamicArray,
-  mangleStructName,
-  safeGetNodeType,
-  TranspileFailedError,
-} from '../../export';
+import { CairoFunctionDefinition, CairoGeneratedFunctionDefinition } from '../../ast/cairoNodes';
 import { CairoASTNodeWriter } from '../base';
 import { getDocumentation, getInterfaceNameForContract } from '../utils';
 import { interfaceNameMappings } from './sourceUnitWriter';
+import { TranspileFailedError } from '../../utils/errors';
+import { safeGetNodeType, isDynamicArray } from '../../utils/nodeTypeProcessing';
+import { mangleStructName } from '../../utils/utils';
 
 export class FunctionCallWriter extends CairoASTNodeWriter {
   writeInner(node: FunctionCall, writer: ASTWriter): SrcDesc {

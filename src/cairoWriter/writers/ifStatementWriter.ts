@@ -1,7 +1,7 @@
 import { ASTWriter, IfStatement, SrcDesc } from 'solc-typed-ast';
-import { notUndefined } from '../../export';
 import { CairoASTNodeWriter } from '../base';
 import { getDocumentation } from '../utils';
+import { notUndefined } from '../../utils/typeConstructs';
 
 export class IfStatementWriter extends CairoASTNodeWriter {
   writeInner(node: IfStatement, writer: ASTWriter): SrcDesc {

@@ -14,7 +14,6 @@ import {
   UserDefinedType,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoDynArray, CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { NotSupportedYetError } from '../../utils/errors';
@@ -25,6 +24,7 @@ import { mapRange, narrowBigIntSafe, typeNameFromTypeNode } from '../../utils/ut
 import { add, delegateBasedOnType, GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
 import { DynArrayGen } from '../storage/dynArray';
 import { StorageWriteGen } from '../storage/storageWrite';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class CalldataToStorageGen extends StringIndexedFuncGen {
   public constructor(

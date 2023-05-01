@@ -1,8 +1,8 @@
 import { ASTWriter, Literal, LiteralKind, SrcDesc } from 'solc-typed-ast';
 import { TranspileFailedError } from '../../utils/errors';
-import { primitiveTypeToCairo, isCairoPrimitiveIntType } from '../../utils/utils';
+import { primitiveTypeToCairo, isCairoPrimitiveIntType, divmod } from '../../utils/utils';
 import { CairoASTNodeWriter } from '../base';
-import { CairoUint256, divmod } from '../../export';
+import { CairoUint256 } from '../../utils/cairoTypeSystem';
 
 export class LiteralWriter extends CairoASTNodeWriter {
   writeInner(node: Literal, _: ASTWriter): SrcDesc {

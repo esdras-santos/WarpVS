@@ -11,7 +11,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import { U128_FROM_FELT, UINT256_EQ, UINT256_SUB } from '../../utils/importPaths';
@@ -25,6 +24,7 @@ import { typeNameFromTypeNode } from '../../utils/utils';
 import { GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
 import { DynArrayGen } from './dynArray';
 import { StorageDeleteGen } from './storageDelete';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class DynArrayPopGen extends StringIndexedFuncGen {
   constructor(

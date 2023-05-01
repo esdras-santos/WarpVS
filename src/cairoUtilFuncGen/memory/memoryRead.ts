@@ -7,7 +7,6 @@ import {
   generalizeType,
   TypeNode,
 } from 'solc-typed-ast';
-import { CairoFunctionDefinition, typeNameFromTypeNode } from '../../export';
 import {
   CairoFelt,
   CairoType,
@@ -22,6 +21,8 @@ import { createNumberLiteral, createNumberTypeName } from '../../utils/nodeTempl
 import { isDynamicArray, safeGetNodeType } from '../../utils/nodeTypeProcessing';
 import { add, GeneratedFunctionInfo, locationIfComplexType, StringIndexedFuncGen } from '../base';
 import { serialiseReads } from '../serialisation';
+import { typeNameFromTypeNode } from '../../utils/utils';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 /*
   Produces functions that when given a start location in warp_memory, deserialise all necessary

@@ -226,6 +226,20 @@ export const U248_TO_FELT: [string[], string] = [['integer'], 'u248_to_felt252']
 
 /**  ------------------------------ */
 
+
+export const U8_OVERFLOW_ADD: [string[], string] = [['integer'], 'u8_overflowing_add'];
+export const U8_OVERFLOW_SUB: [string[], string] = [['integer'], 'u8_overflowing_sub'];
+export const U16_OVERFLOW_ADD: [string[], string] = [['integer'], 'u16_overflowing_add'];
+export const U16_OVERFLOW_SUB: [string[], string] = [['integer'], 'u16_overflowing_sub'];
+export const U32_OVERFLOW_ADD: [string[], string] = [['integer'], 'u32_overflowing_add'];
+export const U32_OVERFLOW_SUB: [string[], string] = [['integer'], 'u32_overflowing_sub'];
+export const U64_OVERFLOW_ADD: [string[], string] = [['integer'], 'u64_overflowing_add'];
+export const U64_OVERFLOW_SUB: [string[], string] = [['integer'], 'u64_overflowing_sub'];
+export const U128_OVERFLOW_ADD: [string[], string] = [['integer'], 'u128_overflowing_add'];
+export const U128_OVERFLOW_SUB: [string[], string] = [['integer'], 'u128_overflowing_sub'];
+export const U256_OVERFLOW_ADD: [string[], string] = [['integer'], 'u256_overflowing_add'];
+export const U256_OVERFLOW_SUB: [string[], string] = [['integer'], 'u256_overflow_sub'];
+
 export const GET_CALLER_ADDRESS: [string[], string] = [['starknet'], 'get_caller_address'];
 export const CONTRACT_ADDRESS: [string[], string] = [['starknet'], 'ContractAddress'];
 export const INTO: [string[], string] = [['traits'], 'Into'];

@@ -1,7 +1,6 @@
 import endent from 'endent';
 import { FixedBytesType, SourceUnit, TypeNode } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { TranspileFailedError } from '../../utils/errors';
@@ -19,6 +18,7 @@ import { uint256 } from '../../warplib/utils';
 import { GeneratedFunctionInfo } from '../base';
 import { AbiEncode } from './abiEncode';
 import { AbiBase } from './base';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class AbiEncodeWithSelector extends AbiBase {
   protected override functionName = 'abi_encode_with_selector';

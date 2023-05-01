@@ -14,7 +14,6 @@ import {
   UserDefinedType,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoDynArray, CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { NotSupportedYetError } from '../../utils/errors';
@@ -39,6 +38,7 @@ import { add, delegateBasedOnType, GeneratedFunctionInfo, StringIndexedFuncGen }
 import { ExternalDynArrayStructConstructor } from '../calldata/externalDynArray/externalDynArrayStructConstructor';
 import { MemoryReadGen } from './memoryRead';
 import endent from 'endent';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class MemoryToCallDataGen extends StringIndexedFuncGen {
   public constructor(

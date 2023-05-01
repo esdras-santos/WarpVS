@@ -16,7 +16,6 @@ import {
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
 import { CairoGeneratedFunctionDefinition } from '../../ast/cairoNodes/cairoGeneratedFunctionDefinition';
-import { CairoFunctionDefinition, notUndefined } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import {
   CairoDynArray,
@@ -42,6 +41,8 @@ import {
   StringIndexedFuncGenWithAuxiliar,
 } from '../base';
 import { ExternalDynArrayStructConstructor } from '../calldata/externalDynArray/externalDynArrayStructConstructor';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
+import { notUndefined } from '../../utils/typeConstructs';
 
 /**
  * This class generate `encode` cairo util functions with the objective of making

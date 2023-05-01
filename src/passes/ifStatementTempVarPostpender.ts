@@ -13,7 +13,7 @@ import { CairoFunctionDefinition } from '../ast/cairoNodes';
 import { createBlock, createCairoTempVar } from '../utils/nodeTemplates';
 import { hasPathWithoutReturn } from '../utils/controlFlowAnalyser';
 import assert from 'assert';
-import { isBlock } from '../export';
+import { isBlock } from '../utils/utils';
 
 /*
  * This pass does a live variable analysis of the code while simultaneously

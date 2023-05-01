@@ -16,7 +16,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType, TypeConversionContext, WarpLocation } from '../../utils/cairoTypeSystem';
 import { TranspileFailedError } from '../../utils/errors';
@@ -42,6 +41,7 @@ import { uint256 } from '../../warplib/utils';
 import { add, delegateBasedOnType, GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
 import { DynArrayGen } from './dynArray';
 import { StorageDeleteGen } from './storageDelete';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 /*
   Generates functions to copy data from WARP_STORAGE to WARP_STORAGE

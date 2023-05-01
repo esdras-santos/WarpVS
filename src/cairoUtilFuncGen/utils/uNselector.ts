@@ -1,4 +1,5 @@
-import { CairoUint } from '../../export';
+
+import { CairoUint } from '../../utils/cairoTypeSystem';
 import {
   U8_TO_FELT,
   U16_TO_FELT,

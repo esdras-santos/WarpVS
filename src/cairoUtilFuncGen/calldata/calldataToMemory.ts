@@ -25,7 +25,6 @@ import {
   isReferenceType,
   safeGetNodeType,
 } from '../../utils/nodeTypeProcessing';
-import { CairoFunctionDefinition } from '../../export';
 import {
   DICT_WRITE,
   FELT_TO_UINT256,
@@ -34,6 +33,7 @@ import {
   WM_NEW,
 } from '../../utils/importPaths';
 import endent from 'endent';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class CallDataToMemoryGen extends StringIndexedFuncGen {
   public gen(node: Expression): FunctionCall {

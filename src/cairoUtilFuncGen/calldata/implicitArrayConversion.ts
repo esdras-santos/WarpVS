@@ -11,7 +11,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { CairoDynArray, CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { cloneASTNode } from '../../utils/cloning';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
@@ -32,6 +31,7 @@ import {
   U128_FROM_FELT,
 } from '../../utils/importPaths';
 import endent from 'endent';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 // TODO: Add checks for expressions locations when generating
 export class ImplicitArrayConversion extends StringIndexedFuncGen {

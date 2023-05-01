@@ -8,13 +8,13 @@ import {
   TypeName,
   FunctionDefinition,
 } from 'solc-typed-ast';
-import { typeNameFromTypeNode } from '../../export';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { cloneASTNode } from '../../utils/cloning';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import { safeGetNodeType } from '../../utils/nodeTypeProcessing';
 import { add, GeneratedFunctionInfo, locationIfComplexType, StringIndexedFuncGen } from '../base';
 import { serialiseReads } from '../serialisation';
+import { typeNameFromTypeNode } from '../../utils/utils';
 
 export class StorageReadGen extends StringIndexedFuncGen {
   // TODO: is typename safe to remove?

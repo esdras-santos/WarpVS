@@ -13,7 +13,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { CairoImportFunctionDefinition } from '../../ast/cairoNodes';
-import { createBytesTypeName, createStringTypeName } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType } from '../../utils/cairoTypeSystem';
 import { TranspileFailedError } from '../../utils/errors';
@@ -34,6 +33,7 @@ import { safeGetNodeType } from '../../utils/nodeTypeProcessing';
 import { mapRange, typeNameFromTypeNode } from '../../utils/utils';
 import { getIntOrFixedByteBitWidth, uint256 } from '../../warplib/utils';
 import { GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
+import { createBytesTypeName, createStringTypeName } from '../../utils/nodeTemplates';
 
 export class MemoryArrayConcat extends StringIndexedFuncGen {
   public gen(concat: FunctionCall) {

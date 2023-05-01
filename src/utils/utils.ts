@@ -71,7 +71,7 @@ import {
 } from './nodeTemplates';
 import { isDynamicArray, isDynamicCallDataArray, safeGetNodeType } from './nodeTypeProcessing';
 import { Class } from './typeConstructs';
-import { TranspilationOptions } from '../cli';
+import { TranspilationOptions } from '../transpiler';
 
 export type Implicits = 'warp_memory';
 

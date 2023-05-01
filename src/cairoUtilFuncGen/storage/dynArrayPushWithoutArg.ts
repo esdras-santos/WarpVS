@@ -10,7 +10,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { printTypeNode } from '../../export';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import { U128_FROM_FELT, UINT256_ADD } from '../../utils/importPaths';
@@ -18,6 +17,7 @@ import { getElementType, safeGetNodeType } from '../../utils/nodeTypeProcessing'
 import { typeNameFromTypeNode } from '../../utils/utils';
 import { GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
 import { DynArrayGen } from './dynArray';
+import { printTypeNode } from '../../utils/astPrinter';
 
 export class DynArrayPushWithoutArgGen extends StringIndexedFuncGen {
   constructor(private dynArrayGen: DynArrayGen, ast: AST, sourceUnit: SourceUnit) {

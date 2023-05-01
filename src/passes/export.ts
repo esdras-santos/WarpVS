@@ -31,7 +31,6 @@ export * from './inlineAssemblyTransformer';
 export * from './literalExpressionEvaluator/export';
 export * from './loopFunctionaliser/export';
 export * from './namedArgsRemover';
-export * from './newToDeploy';
 export * from './publicFunctionSplitter/export';
 export * from './referencedLibraries';
 export * from './references/export';

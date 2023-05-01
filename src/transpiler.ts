@@ -1,5 +1,4 @@
 import { ASTWriter, CompileFailedError, PrettyFormatter } from 'solc-typed-ast';
-import { CompilationOptions, PrintOptions, TranspilationOptions } from './cli';
 import { AST } from './ast/ast';
 import { ASTMapper } from './ast/mapper';
 import { CairoASTMapping } from './cairoWriter';
@@ -34,7 +33,6 @@ import {
   LoopFunctionaliser,
   ModifierHandler,
   NamedArgsRemover,
-  NewToDeploy,
   PublicFunctionSplitter,
   PublicStateVarsGetterGenerator,
   ReferencedLibraries,
@@ -64,10 +62,31 @@ import { CairoToSolASTWriterMapping } from './solWriter';
 import { DefaultASTPrinter } from './utils/astPrinter';
 import { createPassMap, parsePassOrder } from './utils/cli';
 import { TranspilationAbandonedError, TranspileFailedError } from './utils/errors';
-import { error, removeExcessNewlines } from './utils/formatting';
+import { error } from './utils/formatting';
 import { printCompileErrors, runSanityCheck } from './utils/utils';
 
 type CairoSource = [file: string, source: string];
+
+export type CompilationOptions = {
+  warnings?: boolean;
+  includePaths?: string[];
+  basePath?: string;
+};
+
+export type TranspilationOptions = {
+  checkTrees?: boolean;
+  dev: boolean;
+  order?: string;
+  printTrees?: boolean;
+  strict?: boolean;
+  warnings?: boolean;
+  until?: string;
+};
+
+export type PrintOptions = {
+  highlight?: string[];
+  stubs?: boolean;
+};
 
 export function transpile(ast: AST, options: TranspilationOptions & PrintOptions): CairoSource[] {
   const cairoAST = applyPasses(ast, options);
@@ -77,19 +96,6 @@ export function transpile(ast: AST, options: TranspilationOptions & PrintOptions
     ast.inference.version,
   );
   return cairoAST.roots.map((sourceUnit) => [sourceUnit.absolutePath, writer.write(sourceUnit)]);
-}
-
-export function transform(ast: AST, options: TranspilationOptions & PrintOptions): CairoSource[] {
-  const cairoAST = applyPasses(ast, options);
-  const writer = new ASTWriter(
-    CairoToSolASTWriterMapping(!!options.stubs),
-    new PrettyFormatter(4, 0),
-    ast.inference.version,
-  );
-  return cairoAST.roots.map((sourceUnit) => [
-    sourceUnit.absolutePath,
-    removeExcessNewlines(writer.write(sourceUnit), 2),
-  ]);
 }
 
 function applyPasses(
@@ -132,7 +138,6 @@ function applyPasses(
     ['Cos', ConditionalSplitter],
     ['V', VariableDeclarationInitialiser],
     ['Vs', VariableDeclarationExpressionSplitter],
-    ['Ntd', NewToDeploy],
     ['I', ImplicitConversionToExplicit],
     ['Abi', ABIBuiltins],
     ['Ev', Events],

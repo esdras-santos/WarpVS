@@ -7,7 +7,6 @@ import {
   extractSpecifiersFromSource,
   getCompilerVersionsBySpecifiers,
 } from 'solc-typed-ast';
-import { CompilationOptions } from './cli';
 import { AST } from './ast/ast';
 import { SupportedSolcVersions, nethersolcPath, fullVersionFromMajor } from './nethersolc';
 import { TranspileFailedError } from './utils/errors';
@@ -17,6 +16,12 @@ import { error } from './utils/formatting';
 // AST was exceeding the buffer size. We leave it unbounded by setting the
 // size to the largest possible
 const MAX_BUFFER_SIZE = Number.MAX_SAFE_INTEGER;
+
+export type CompilationOptions = {
+  warnings?: boolean;
+  includePaths?: string[];
+  basePath?: string;
+};
 
 function compileSolFilesCommon(files: string[], options: CompilationOptions): SolcOutput {
   const sources = files.map((file) => {

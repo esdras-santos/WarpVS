@@ -1,8 +1,8 @@
 import assert from 'assert';
 import { ASTWriter, SourceUnit, SrcDesc, VariableDeclaration } from 'solc-typed-ast';
-import { isCairoConstant } from '../../export';
 import { CairoASTNodeWriter } from '../base';
 import { getDocumentation } from '../utils';
+import { isCairoConstant } from '../../utils/utils';
 
 export class VariableDeclarationWriter extends CairoASTNodeWriter {
   writeInner(node: VariableDeclaration, writer: ASTWriter): SrcDesc {

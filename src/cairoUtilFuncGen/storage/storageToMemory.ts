@@ -16,10 +16,9 @@ import {
   UserDefinedType,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition, TranspileFailedError } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
-import { NotSupportedYetError } from '../../utils/errors';
+import { NotSupportedYetError, TranspileFailedError } from '../../utils/errors';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import {
   DICT_WRITE,
@@ -34,6 +33,7 @@ import { mapRange, narrowBigIntSafe, typeNameFromTypeNode } from '../../utils/ut
 import { uint256 } from '../../warplib/utils';
 import { add, delegateBasedOnType, GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
 import { DynArrayGen } from './dynArray';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 /*
   Generates functions to copy data from WARP_STORAGE to warp_memory

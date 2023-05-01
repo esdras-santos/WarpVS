@@ -21,7 +21,7 @@ export function getPlatform(): SupportedPlatforms {
 
 export function nethersolcPath(version: SupportedSolcVersions): string {
   const platform = getPlatform();
-  return path.resolve('nethersolc', platform, version, 'solc');
+  return path.resolve('..', 'nethersolc', platform, version, 'solc');
 }
 
 export function fullVersionFromMajor(majorVersion: SupportedSolcVersions): string {

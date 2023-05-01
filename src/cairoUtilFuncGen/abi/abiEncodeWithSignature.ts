@@ -8,7 +8,6 @@ import {
   StringType,
   TypeNode,
 } from 'solc-typed-ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { TranspileFailedError } from '../../utils/errors';
@@ -28,6 +27,7 @@ import { typeNameFromTypeNode } from '../../utils/utils';
 import { uint256 } from '../../warplib/utils';
 import { GeneratedFunctionInfo } from '../base';
 import { AbiEncodeWithSelector } from './abiEncodeWithSelector';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 export class AbiEncodeWithSignature extends AbiEncodeWithSelector {
   protected override functionName = 'abi_encode_with_signature';

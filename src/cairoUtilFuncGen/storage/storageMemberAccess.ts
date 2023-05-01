@@ -9,13 +9,13 @@ import {
   StructDefinition,
 } from 'solc-typed-ast';
 import { CairoFunctionDefinition } from '../../ast/cairoNodes';
-import { printTypeNode } from '../../export';
 import { CairoType, TypeConversionContext, CairoStruct } from '../../utils/cairoTypeSystem';
 import { cloneASTNode } from '../../utils/cloning';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import { safeGetNodeType } from '../../utils/nodeTypeProcessing';
 import { typeNameFromTypeNode } from '../../utils/utils';
 import { add, GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
+import { printTypeNode } from '../../utils/astPrinter';
 
 export class StorageMemberAccessGen extends StringIndexedFuncGen {
   public gen(memberAccess: MemberAccess): FunctionCall {

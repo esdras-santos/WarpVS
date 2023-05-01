@@ -1,8 +1,8 @@
 import { EmitStatement, EventDefinition, FunctionCall } from 'solc-typed-ast';
 import { AST } from '../ast/ast';
 import { ASTMapper } from '../ast/mapper';
+import { createExpressionStatement } from '../utils/nodeTemplates';
 
-import { createExpressionStatement } from '../export';
 
 /**
  * Generates a cairo function that emits an event

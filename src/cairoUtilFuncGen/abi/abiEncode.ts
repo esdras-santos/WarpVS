@@ -9,7 +9,6 @@ import {
   UserDefinedType,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition } from '../../export';
 import { printTypeNode } from '../../utils/astPrinter';
 import { CairoType, MemoryLocation, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { TranspileFailedError } from '../../utils/errors';
@@ -38,6 +37,7 @@ import { uint256 } from '../../warplib/utils';
 import { delegateBasedOnType, GeneratedFunctionInfo, mul } from '../base';
 import { MemoryReadGen } from '../memory/memoryRead';
 import { AbiBase, removeSizeInfo } from './base';
+import { CairoFunctionDefinition } from '../../ast/cairoNodes';
 
 /**
  * Given any data type produces the same output of solidity abi.encode

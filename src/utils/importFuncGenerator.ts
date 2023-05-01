@@ -140,6 +140,18 @@ export function createImport(
     Paths.MEMORY_TRAIT,
     Paths.BOOL_INTO_FELT252,
     Paths.FELT252_INTO_BOOL,
+    Paths.U8_OVERFLOW_ADD,
+    Paths.U8_OVERFLOW_SUB,
+    Paths.U16_OVERFLOW_ADD,
+    Paths.U16_OVERFLOW_SUB,
+    Paths.U32_OVERFLOW_ADD,
+    Paths.U32_OVERFLOW_SUB,
+    Paths.U64_OVERFLOW_ADD,
+    Paths.U64_OVERFLOW_SUB,
+    Paths.U128_OVERFLOW_ADD,
+    Paths.U128_OVERFLOW_SUB,
+    Paths.U256_OVERFLOW_ADD,
+    Paths.U256_OVERFLOW_SUB,
   ];
   if (pathsForFunctionImport.some((i) => encodePath([path, name]) === encodePath(i))) {
     return createFuncImport();

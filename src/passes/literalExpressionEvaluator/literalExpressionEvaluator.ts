@@ -9,11 +9,11 @@ import {
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
 import { ASTMapper } from '../../ast/mapper';
-import { printNode } from '../../export';
 import { TranspileFailedError } from '../../utils/errors';
 import { createBoolLiteral, createNumberLiteral } from '../../utils/nodeTemplates';
 import { unitValue } from '../../utils/utils';
 import { RationalLiteral, stringToLiteralValue } from './rationalLiteral';
+import { printNode } from '../../utils/astPrinter';
 
 /*
   solidity operators which could be literal:

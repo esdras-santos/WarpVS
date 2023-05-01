@@ -1,9 +1,16 @@
-import * as path from 'path';
-import * as fs from 'fs';
-import { OutputOptions, TranspilationOptions } from './cli';
-import { TranspileFailedError, logError } from './utils/errors';
-import { AST } from './ast/ast';
-import { outputFileSync } from './utils/fs';
+const path = require('path');
+const fs = require('fs');
+import { TranspileFailedError, logError } from './utils/errors.ts';
+import { AST } from './ast/ast.ts';
+import { outputFileSync } from './utils/fs.ts';
+import { TranspilationOptions } from './transpiler.ts';
+
+
+export type OutputOptions = {
+  compileCairo?: boolean;
+  outputDir: string;
+  formatCairo: boolean;
+};
 
 export function isValidSolFile(path: string, printError = true): boolean {
   if (!fs.existsSync(path)) {

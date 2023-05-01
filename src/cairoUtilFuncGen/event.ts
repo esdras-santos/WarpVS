@@ -7,19 +7,6 @@ import {
   SourceUnit,
   TypeNode,
 } from 'solc-typed-ast';
-import {
-  AST,
-  CairoType,
-  createCallToFunction,
-  isValueType,
-  safeGetNodeType,
-  TypeConversionContext,
-  typeNameFromTypeNode,
-  createCairoGeneratedFunction,
-  warpEventSignatureHash256FromString,
-  EMIT_PREFIX,
-  CairoFunctionDefinition,
-} from '../export';
 import { GeneratedFunctionInfo, StringIndexedFuncGen } from './base';
 import { ABIEncoderVersion } from 'solc-typed-ast/dist/types/abi';
 import { AbiEncode } from './abi/abiEncode';
@@ -37,6 +24,13 @@ import {
   WM_TO_FELT_ARRAY,
 } from '../utils/importPaths';
 import endent from 'endent';
+import { isValueType, safeGetNodeType } from '../utils/nodeTypeProcessing';
+import { createCairoGeneratedFunction, createCallToFunction } from '../utils/functionGeneration';
+import { AST } from '../ast/ast';
+import { typeNameFromTypeNode } from '../utils/utils';
+import { CairoType, TypeConversionContext } from '../utils/cairoTypeSystem';
+import { CairoFunctionDefinition } from '../ast/cairoNodes';
+import { EMIT_PREFIX, warpEventSignatureHash256FromString } from '../utils/export';
 
 export const BYTES_IN_FELT_PACKING = 31;
 const BIG_ENDIAN = 1; // 0 for little endian, used for packing of bytes (31 byte felts -> a 248 bit felt)

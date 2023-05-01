@@ -1,7 +1,11 @@
-import { PrintOptions } from '../cli';
 import { isValidSolFile } from '../io';
 import { compileSolFiles } from '../solCompile';
 import { DefaultASTPrinter } from './astPrinter';
+
+export type PrintOptions = {
+  highlight?: string[];
+  stubs?: boolean;
+};
 
 export function analyseSol(file: string, options: PrintOptions) {
   if (!isValidSolFile(file)) {

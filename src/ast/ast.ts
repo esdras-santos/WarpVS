@@ -28,7 +28,7 @@ import { createImport } from '../utils/importFuncGenerator';
 import { safeGetNodeType } from '../utils/nodeTypeProcessing';
 import { getContainingSourceUnit, isExternalCall } from '../utils/utils';
 import { CairoImportFunctionDefinition } from './cairoNodes';
-import { ParameterInfo } from '../export';
+import { ParameterInfo } from '../utils/functionGeneration';
 
 /*
  A centralised store of information required for transpilation, a reference

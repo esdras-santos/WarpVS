@@ -15,8 +15,7 @@ import {
   UserDefinedType,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoGeneratedFunctionDefinition } from '../../ast/cairoNodes';
-import { CairoFunctionDefinition } from '../../export';
+import { CairoFunctionDefinition, CairoGeneratedFunctionDefinition } from '../../ast/cairoNodes';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
 import { U128_FROM_FELT, UINT256_ADD, UINT256_EQ, UINT256_SUB } from '../../utils/importPaths';

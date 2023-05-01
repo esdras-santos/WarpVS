@@ -1,7 +1,7 @@
 import { ContractKind } from 'solc-typed-ast';
 import { AST } from '../ast/ast';
 import { ASTMapper } from '../ast/mapper';
-import { TEMP_INTERFACE_SUFFIX } from '../export';
+import { TEMP_INTERFACE_SUFFIX } from '../utils/nameModifiers';
 
 export class DropUnusedSourceUnits extends ASTMapper {
   // Function to add passes that should have been run before this pass

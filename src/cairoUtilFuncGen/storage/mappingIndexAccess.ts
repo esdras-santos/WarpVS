@@ -11,7 +11,6 @@ import {
   TypeNode,
 } from 'solc-typed-ast';
 import { AST } from '../../ast/ast';
-import { CairoFunctionDefinition, FunctionStubKind } from '../../export';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import {
   createCairoGeneratedFunction,
@@ -29,6 +28,7 @@ import {
 import { typeNameFromTypeNode } from '../../utils/utils';
 import { CairoUtilFuncGenBase, GeneratedFunctionInfo, locationIfComplexType } from '../base';
 import { DynArrayGen } from './dynArray';
+import { CairoFunctionDefinition, FunctionStubKind } from '../../ast/cairoNodes';
 
 export class MappingIndexAccessGen extends CairoUtilFuncGenBase {
   private indexAccessFunctions = new Map<string, CairoFunctionDefinition>();

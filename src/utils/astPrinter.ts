@@ -8,10 +8,10 @@ import {
   TypeNameType,
   TypeNode,
 } from 'solc-typed-ast';
-import { PrintOptions } from '../cli';
 import { CairoFunctionDefinition, FunctionStubKind } from '../ast/cairoNodes';
 import { cyan, underline } from './formatting';
 import { extractProperty } from './utils';
+import { PrintOptions } from './analyseSol';
 
 type PropPrinter = {
   prop: string;

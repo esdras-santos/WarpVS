@@ -8,17 +8,12 @@ import {
   StringType,
   TypeNode,
 } from 'solc-typed-ast';
-import {
-  CairoFunctionDefinition,
-  createCairoGeneratedFunction,
-  createCallToFunction,
-  createUint256TypeName,
-  createUintNTypeName,
-  FunctionStubKind,
-  getElementType,
-} from '../../export';
 import { CairoType, TypeConversionContext } from '../../utils/cairoTypeSystem';
 import { GeneratedFunctionInfo, StringIndexedFuncGen } from '../base';
+import { getElementType } from '../../utils/nodeTypeProcessing';
+import { createCairoGeneratedFunction, createCallToFunction } from '../../utils/functionGeneration';
+import { CairoFunctionDefinition, FunctionStubKind } from '../../ast/cairoNodes';
+import { createUint256TypeName, createUintNTypeName } from '../../utils/nodeTemplates';
 
 export class DynArrayGen extends StringIndexedFuncGen {
   public genLength(

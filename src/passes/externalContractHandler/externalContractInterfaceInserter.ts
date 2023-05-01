@@ -14,11 +14,11 @@ import {
 import { AST } from '../../ast/ast';
 import { CairoContract } from '../../ast/cairoNodes';
 import { ASTMapper } from '../../ast/mapper';
-import { TEMP_INTERFACE_SUFFIX } from '../../export';
 import { cloneASTNode } from '../../utils/cloning';
 import { TranspileFailedError } from '../../utils/errors';
 import { safeGetNodeType } from '../../utils/nodeTypeProcessing';
 import { isExternallyVisible } from '../../utils/utils';
+import { TEMP_INTERFACE_SUFFIX } from '../../utils/nameModifiers';
 
 export class ExternalContractInterfaceInserter extends ASTMapper {
   /*
