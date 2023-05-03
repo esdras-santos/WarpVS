@@ -1,0 +1,1 @@
+{"version":3,"file":"dropUnusedSourceUnit.d.ts","sourceRoot":"","sources":["../../src/passes/dropUnusedSourceUnit.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAG1C,qBAAa,qBAAsB,SAAQ,SAAS;IAElD,2BAA2B,IAAI,IAAI;IAKnC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAa1B"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"sourceUnitSplitter.d.ts","sourceRoot":"","sources":["../../src/passes/sourceUnitSplitter.ts"],"names":[],"mappings":"AASA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAM1C,qBAAa,kBAAmB,SAAQ,SAAS;IAE/C,2BAA2B,IAAI,IAAI;IAKnC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAI1B"}

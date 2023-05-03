@@ -1,0 +1,1 @@
+{"version":3,"file":"referencedLibraries.d.ts","sourceRoot":"","sources":["../../src/passes/referencedLibraries.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,qBAAa,mBAAoB,SAAQ,SAAS;IAEhD,2BAA2B,IAAI,IAAI;IAQnC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAY1B"}

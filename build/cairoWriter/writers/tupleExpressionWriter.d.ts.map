@@ -1,0 +1,1 @@
+{"version":3,"file":"tupleExpressionWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/tupleExpressionWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,OAAO,EAAE,eAAe,EAAE,MAAM,gBAAgB,CAAC;AACrE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAE7C,qBAAa,qBAAsB,SAAQ,kBAAkB;IAC3D,UAAU,CAAC,IAAI,EAAE,eAAe,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAG9D"}

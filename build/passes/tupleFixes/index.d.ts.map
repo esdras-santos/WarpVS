@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/passes/tupleFixes/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAI7C,qBAAa,UAAW,SAAQ,SAAS;IAEvC,2BAA2B,IAAI,IAAI;IAKnC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAK1B"}

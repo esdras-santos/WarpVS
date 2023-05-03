@@ -1,0 +1,1 @@
+{"version":3,"file":"keccak.d.ts","sourceRoot":"","sources":["../../../src/passes/builtinHandler/keccak.ts"],"names":[],"mappings":"AAAA,OAAO,EAAuC,YAAY,EAAE,MAAM,gBAAgB,CAAC;AACnF,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAS7C,qBAAa,MAAO,SAAQ,SAAS;IACnC,iBAAiB,CAAC,IAAI,EAAE,YAAY,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAqBtD"}

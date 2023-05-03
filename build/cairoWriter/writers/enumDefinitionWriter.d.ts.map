@@ -1,0 +1,1 @@
+{"version":3,"file":"enumDefinitionWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/enumDefinitionWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,cAAc,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AACpE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAE7C,qBAAa,oBAAqB,SAAQ,kBAAkB;IAC1D,UAAU,CAAC,KAAK,EAAE,cAAc,EAAE,OAAO,EAAE,SAAS,GAAG,OAAO;CAK/D"}

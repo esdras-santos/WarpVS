@@ -1,0 +1,1 @@
+{"version":3,"file":"staticIndexAccess.d.ts","sourceRoot":"","sources":["../../../src/cairoUtilFuncGen/memory/staticIndexAccess.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,SAAS,EAAgB,YAAY,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAC;AAOpF,OAAO,EAAE,oBAAoB,EAAE,MAAM,SAAS,CAAC;AAS/C,qBAAa,+BAAgC,SAAQ,oBAAoB;IACvE,GAAG,CAAC,WAAW,EAAE,WAAW,EAAE,SAAS,EAAE,SAAS,GAAG,YAAY;CAgClE"}

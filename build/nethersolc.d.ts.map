@@ -1,0 +1,1 @@
+{"version":3,"file":"nethersolc.d.ts","sourceRoot":"","sources":["../src/nethersolc.ts"],"names":[],"mappings":"AAKA,aAAK,kBAAkB,GAAG,WAAW,GAAG,YAAY,GAAG,cAAc,CAAC;AACtE,oBAAY,qBAAqB,GAAG,GAAG,GAAG,GAAG,CAAC;AAE9C,wBAAgB,WAAW,IAAI,kBAAkB,CAWhD;AAED,wBAAgB,cAAc,CAAC,OAAO,EAAE,qBAAqB,GAAG,MAAM,CAGrE;AAED,wBAAgB,oBAAoB,CAAC,YAAY,EAAE,qBAAqB,GAAG,MAAM,CAOhF"}

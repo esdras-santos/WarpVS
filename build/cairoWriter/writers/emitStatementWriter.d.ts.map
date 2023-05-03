@@ -1,0 +1,1 @@
+{"version":3,"file":"emitStatementWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/emitStatementWriter.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,SAAS,EAAE,aAAa,EAAmB,OAAO,EAAE,MAAM,gBAAgB,CAAC;AACpF,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,mBAAoB,SAAQ,kBAAkB;IACzD,UAAU,CAAC,IAAI,EAAE,aAAa,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAQ5D"}

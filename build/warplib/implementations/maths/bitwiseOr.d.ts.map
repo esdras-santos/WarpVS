@@ -1,0 +1,1 @@
+{"version":3,"file":"bitwiseOr.d.ts","sourceRoot":"","sources":["../../../../src/warplib/implementations/maths/bitwiseOr.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,gBAAgB,CAAC;AACjD,OAAO,EAAE,GAAG,EAAE,MAAM,kBAAkB,CAAC;AAGvC,wBAAgB,sBAAsB,CAAC,IAAI,EAAE,eAAe,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI,CAE5E"}

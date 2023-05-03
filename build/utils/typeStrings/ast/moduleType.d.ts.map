@@ -1,0 +1,1 @@
+{"version":3,"file":"moduleType.d.ts","sourceRoot":"","sources":["../../../../src/utils/typeStrings/ast/moduleType.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,QAAQ,EAAE,MAAM,gBAAgB,CAAC;AAEjD,qBAAa,UAAW,SAAQ,QAAQ;IACtC,QAAQ,CAAC,IAAI,EAAE,MAAM,CAAC;gBAEV,IAAI,EAAE,MAAM,EAAE,GAAG,CAAC,EAAE,KAAK;IAMrC,EAAE,IAAI,MAAM;CAGb"}

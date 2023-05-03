@@ -1,0 +1,1 @@
+{"version":3,"file":"memberAccessWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/memberAccessWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,YAAY,EAAE,OAAO,EAAgB,MAAM,gBAAgB,CAAC;AAChF,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAE7C,qBAAa,kBAAmB,SAAQ,kBAAkB;IACxD,UAAU,CAAC,IAAI,EAAE,YAAY,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAO3D"}

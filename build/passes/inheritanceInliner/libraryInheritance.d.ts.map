@@ -1,0 +1,1 @@
+{"version":3,"file":"libraryInheritance.d.ts","sourceRoot":"","sources":["../../../src/passes/inheritanceInliner/libraryInheritance.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,aAAa,EAAE,MAAM,sBAAsB,CAAC;AAGrD,wBAAgB,uBAAuB,CAAC,IAAI,EAAE,aAAa,EAAE,GAAG,EAAE,GAAG,QAGpE"}

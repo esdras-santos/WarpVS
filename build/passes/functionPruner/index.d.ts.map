@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/passes/functionPruner/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAM7C,qBAAa,cAAe,SAAQ,SAAS;IAE3C,2BAA2B,IAAI,IAAI;IAanC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAc1B"}

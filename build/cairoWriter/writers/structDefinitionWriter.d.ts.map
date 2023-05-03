@@ -1,0 +1,1 @@
+{"version":3,"file":"structDefinitionWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/structDefinitionWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,OAAO,EAAE,gBAAgB,EAAE,MAAM,gBAAgB,CAAC;AAItE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,sBAAuB,SAAQ,kBAAkB;IAC5D,UAAU,CAAC,IAAI,EAAE,gBAAgB,EAAE,OAAO,EAAE,SAAS,GAAG,OAAO;CAkBhE"}

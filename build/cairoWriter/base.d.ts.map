@@ -1,0 +1,1 @@
+{"version":3,"file":"base.d.ts","sourceRoot":"","sources":["../../src/cairoWriter/base.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,aAAa,EAAE,MAAM,gBAAgB,CAAC;AAG/C,8BAAsB,kBAAmB,SAAQ,aAAa;IAC5D,GAAG,EAAE,GAAG,CAAC;IACT,oBAAoB,EAAE,OAAO,CAAC;gBAClB,GAAG,EAAE,GAAG,EAAE,oBAAoB,EAAE,OAAO;IAMnD,iBAAiB,CAAC,OAAO,EAAE,MAAM;CAOlC"}

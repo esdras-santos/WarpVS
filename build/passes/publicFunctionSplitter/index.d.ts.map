@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/passes/publicFunctionSplitter/index.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAI7C,qBAAa,sBAAuB,SAAQ,SAAS;IAEnD,2BAA2B,IAAI,IAAI;IAKnC,MAAM,CAAC,GAAG,CAAC,GAAG,EAAE,GAAG,GAAG,GAAG;CAiB1B"}

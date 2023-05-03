@@ -1,0 +1,1 @@
+{"version":3,"file":"assignmentWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/assignmentWriter.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAE,SAAS,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAChE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAE7C,qBAAa,gBAAiB,SAAQ,kBAAkB;IACtD,UAAU,CAAC,IAAI,EAAE,UAAU,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAMzD"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"ifStatementWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/ifStatementWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,WAAW,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAEjE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,iBAAkB,SAAQ,kBAAkB;IACvD,UAAU,CAAC,IAAI,EAAE,WAAW,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAe1D"}

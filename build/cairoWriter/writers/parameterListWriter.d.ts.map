@@ -1,0 +1,1 @@
+{"version":3,"file":"parameterListWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/parameterListWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,SAAS,EAGT,aAAa,EACb,OAAO,EACR,MAAM,gBAAgB,CAAC;AAIxB,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAE7C,qBAAa,mBAAoB,SAAQ,kBAAkB;IACzD,UAAU,CAAC,IAAI,EAAE,aAAa,EAAE,OAAO,EAAE,SAAS,GAAG,OAAO;CAyB7D"}

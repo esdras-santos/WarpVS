@@ -1,0 +1,1 @@
+{"version":3,"file":"delete.d.ts","sourceRoot":"","sources":["../../../src/passes/references/delete.ts"],"names":[],"mappings":"AAAA,OAAO,EAAgB,cAAc,EAAE,MAAM,gBAAgB,CAAC;AAC9D,OAAO,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AACtD,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AAYpC,qBAAa,aAAc,SAAQ,gBAAgB;IACjD,mBAAmB,CAAC,IAAI,EAAE,cAAc,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAa1D"}

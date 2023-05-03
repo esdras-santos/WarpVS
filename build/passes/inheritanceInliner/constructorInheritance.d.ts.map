@@ -1,0 +1,1 @@
+{"version":3,"file":"constructorInheritance.d.ts","sourceRoot":"","sources":["../../../src/passes/inheritanceInliner/constructorInheritance.ts"],"names":[],"mappings":"AACA,OAAO,EAEL,kBAAkB,EAWnB,MAAM,gBAAgB,CAAC;AACxB,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AA8EpC,wBAAgB,iBAAiB,CAAC,IAAI,EAAE,kBAAkB,EAAE,GAAG,EAAE,GAAG,EAAE,SAAS,EAAE,MAAM,MAAM,QA6F5F"}

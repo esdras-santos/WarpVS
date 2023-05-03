@@ -1,0 +1,1 @@
+{"version":3,"file":"moduleType.js","sourceRoot":"","sources":["../../../../src/utils/typeStrings/ast/moduleType.ts"],"names":[],"mappings":";;;AAAA,mDAAiD;AAEjD,MAAa,UAAW,SAAQ,yBAAQ;IAGtC,YAAY,IAAY,EAAE,GAAW;QACnC,KAAK,CAAC,GAAG,CAAC,CAAC;QAEX,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACnB,CAAC;IAED,EAAE;QACA,OAAO,WAAW,IAAI,CAAC,IAAI,GAAG,CAAC;IACjC,CAAC;CACF;AAZD,gCAYC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"namedArgsRemover.d.ts","sourceRoot":"","sources":["../../src/passes/namedArgsRemover.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAC1C,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AAEjC,OAAO,EAGL,YAAY,EAGb,MAAM,gBAAgB,CAAC;AAIxB,qBAAa,gBAAiB,SAAQ,SAAS;IAE7C,2BAA2B,IAAI,IAAI;IAKnC,iBAAiB,CAAC,IAAI,EAAE,YAAY,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CA4EtD"}

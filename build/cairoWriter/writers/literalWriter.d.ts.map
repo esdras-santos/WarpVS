@@ -1,0 +1,1 @@
+{"version":3,"file":"literalWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/literalWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,OAAO,EAAe,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAG1E,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,aAAc,SAAQ,kBAAkB;IACnD,UAAU,CAAC,IAAI,EAAE,OAAO,EAAE,CAAC,EAAE,SAAS,GAAG,OAAO;CAgDjD"}

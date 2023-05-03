@@ -1,0 +1,1 @@
+{"version":3,"file":"usingForResolver.d.ts","sourceRoot":"","sources":["../../src/passes/usingForResolver.ts"],"names":[],"mappings":"AAAA,OAAO,EAGL,YAAY,EAKb,MAAM,gBAAgB,CAAC;AACxB,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAkB1C,qBAAa,gBAAiB,SAAQ,SAAS;IAK7C,2BAA2B,IAAI,IAAI;IAKnC,iBAAiB,CAAC,IAAI,EAAE,YAAY,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAgDtD"}

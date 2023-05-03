@@ -1,0 +1,1 @@
+{"version":3,"file":"stateVarRefFlattener.d.ts","sourceRoot":"","sources":["../../../src/passes/references/stateVarRefFlattener.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAuB,MAAM,gBAAgB,CAAC;AACnE,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAG7C,qBAAa,oBAAqB,SAAQ,SAAS;IACjD,iBAAiB,CAAC,IAAI,EAAE,YAAY,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAWtD"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"modifierRemover.d.ts","sourceRoot":"","sources":["../../../src/passes/functionModifierHandler/modifierRemover.ts"],"names":[],"mappings":"AACA,OAAO,EAAsB,kBAAkB,EAAE,MAAM,gBAAgB,CAAC;AACxE,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAQ7C,qBAAa,eAAgB,SAAQ,SAAS;IAC5C,uBAAuB,CAAC,IAAI,EAAE,kBAAkB,EAAE,IAAI,EAAE,GAAG;CAK5D"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"breakToReturn.d.ts","sourceRoot":"","sources":["../../../src/passes/loopFunctionaliser/breakToReturn.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,gBAAgB,CAAC;AACvC,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAI7C,qBAAa,aAAc,SAAQ,SAAS;IAC1C,UAAU,CAAC,IAAI,EAAE,KAAK,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAYxC"}

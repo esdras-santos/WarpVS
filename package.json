@@ -6,12 +6,19 @@
   "engines": {
     "vscode": "^1.77.0"
   },
+  "bin": {
+    "warp": "./bin/warp"
+  },
+  "files": [
+    "bin",
+    "build",
+    "nethersolc"
+  ],
   "categories": [
     "Other"
   ],
   "activationEvents": [
     "onCommand:warpvs.transpile",
-    "onCommand:warpvs.voyager",
     "onView:warpvs-sidebar"
   ],
   "main": "./dist/extension.js",

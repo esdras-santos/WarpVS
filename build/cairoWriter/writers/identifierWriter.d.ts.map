@@ -1,0 +1,1 @@
+{"version":3,"file":"identifierWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/identifierWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,UAAU,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAEhE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,gBAAiB,SAAQ,kBAAkB;IACtD,UAAU,CAAC,IAAI,EAAE,UAAU,EAAE,CAAC,EAAE,SAAS,GAAG,OAAO;CAsBpD"}

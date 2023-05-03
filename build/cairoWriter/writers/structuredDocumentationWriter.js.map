@@ -1,0 +1,1 @@
+{"version":3,"file":"structuredDocumentationWriter.js","sourceRoot":"","sources":["../../../src/cairoWriter/writers/structuredDocumentationWriter.ts"],"names":[],"mappings":";;;AACA,kCAA6C;AAE7C,MAAa,6BAA8B,SAAQ,yBAAkB;IACnE,UAAU,CAAC,IAA6B,EAAE,OAAkB;QAC1D,OAAO,CAAC,MAAM,IAAI,CAAC,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,IAAI,CAAC,MAAM,CAAC,EAAE,CAAC,CAAC;IACtD,CAAC;CACF;AAJD,sEAIC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"events.d.ts","sourceRoot":"","sources":["../../src/passes/events.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAiC,MAAM,gBAAgB,CAAC;AAC9E,OAAO,EAAE,GAAG,EAAE,MAAM,YAAY,CAAC;AACjC,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAI1C;;;;GAIG;AACH,qBAAa,MAAO,SAAQ,SAAS;IAEnC,2BAA2B,IAAI,IAAI;IAOnC,kBAAkB,CAAC,IAAI,EAAE,aAAa,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAOxD"}

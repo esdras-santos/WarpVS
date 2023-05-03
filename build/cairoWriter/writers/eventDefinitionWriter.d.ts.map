@@ -1,0 +1,1 @@
+{"version":3,"file":"eventDefinitionWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/eventDefinitionWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,eAAe,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AACrE,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,qBAAsB,SAAQ,kBAAkB;IAC3D,UAAU,CAAC,IAAI,EAAE,eAAe,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAK9D"}

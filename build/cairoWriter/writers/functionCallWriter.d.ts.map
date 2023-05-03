@@ -1,0 +1,1 @@
+{"version":3,"file":"functionCallWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/functionCallWriter.ts"],"names":[],"mappings":"AACA,OAAO,EACL,SAAS,EAET,YAAY,EAIZ,OAAO,EAGR,MAAM,gBAAgB,CAAC;AASxB,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAI7C,qBAAa,kBAAmB,SAAQ,kBAAkB;IACxD,UAAU,CAAC,IAAI,EAAE,YAAY,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAgG3D"}

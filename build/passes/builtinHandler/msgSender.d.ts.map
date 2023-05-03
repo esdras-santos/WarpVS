@@ -1,0 +1,1 @@
+{"version":3,"file":"msgSender.d.ts","sourceRoot":"","sources":["../../../src/passes/builtinHandler/msgSender.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAqC,MAAM,gBAAgB,CAAC;AACjF,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,kBAAkB,CAAC;AAK7C,qBAAa,SAAU,SAAQ,SAAS;IACtC,iBAAiB,CAAC,IAAI,EAAE,YAAY,EAAE,GAAG,EAAE,GAAG,GAAG,IAAI;CAuBtD"}

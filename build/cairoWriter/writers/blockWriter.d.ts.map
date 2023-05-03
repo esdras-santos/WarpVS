@@ -1,0 +1,1 @@
+{"version":3,"file":"blockWriter.d.ts","sourceRoot":"","sources":["../../../src/cairoWriter/writers/blockWriter.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,KAAK,EAAE,cAAc,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAC3E,OAAO,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAG7C,qBAAa,WAAY,SAAQ,kBAAkB;IACjD,UAAU,CAAC,IAAI,EAAE,KAAK,GAAG,cAAc,EAAE,MAAM,EAAE,SAAS,GAAG,OAAO;CAiBrE"}
