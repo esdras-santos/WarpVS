@@ -1,7 +1,6 @@
 import * as vscode from 'vscode';
-// import * as path from 'path';
 import { SidebarProvider } from './SidebarProvider';
-import path from 'path';
+import * as path from 'path';
 import { execSync } from 'child_process';
 
 
@@ -21,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 		console.log(warpPath);
 		execSync(`${warpPath} ${f}`);
 		
-		vscode.window.showInformationMessage('Solidty file succefully transpiled!')
+		vscode.window.showInformationMessage('Solidty file succefully transpiled! check the \"warpvs-output\" folder')
 	}));
 }
 

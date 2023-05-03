@@ -1,8 +1,0 @@
-[package]
-name = "custom"
-version = "1.0.0"
-
-[dependencies]
-warplib = { path = "/home/esdras/Downloads/WarpVS/warplib" }
-
-[[target.warp]]
