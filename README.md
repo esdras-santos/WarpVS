@@ -49,7 +49,7 @@ code --install-extension warpvs-0.0.1.vsix
 ```
 
 when you finish your installation on your side bar will appear this double sided arrow icon 
-![warp icon](https://github.com/esdras-santos/WarpVS/readme-media/double-sized-arrow.PNG)
+![warp icon](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/double-sized-arrow.PNG?raw=true)
 
 
 ### Usage:
