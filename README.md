@@ -49,6 +49,7 @@ code --install-extension warpvs-0.0.1.vsix
 ```
 
 when you finish your installation on your side bar will appear this double sided arrow icon 
+
 ![warp icon](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/double-sized-arrow.PNG?raw=true)
 
 
@@ -59,11 +60,11 @@ After the installation you can follow this steps to transpile your code with jus
 1 - Go to a Solidity file.
 2 - Click on the double sized arrow to open the extension.
 
-![warp icon](https://github.com/esdras-santos/WarpVS/readme-media/double-sized-arrow.PNG)
+![warp icon](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/double-sized-arrow.PNG?raw=true)
 
 3 - Click on `Transpile` button and wait between milliseconds to seconds (depending on the size of your contract), a warning will be popped up when your transpilation is done then just take a look on the new created `warpvs-output` folder and you’ll find your `Cairo-1.0` code.
 
-![transpile button](https://github.com/esdras-santos/WarpVS/readme-media/transpile-button.PNG)
+![transpile button](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/transpile-button.PNG?raw=true)
 
 And it's done, you have transpiled your code.
 
