@@ -1,4 +1,4 @@
-LICENSE
+MIT License
 
 Begin license text.
 
