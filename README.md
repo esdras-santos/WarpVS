@@ -4,7 +4,7 @@
 
 this project is the winner of two prizes, one of them was a development Grant to fund the WarpVS extension given by Louis Guthmann the Ecosystem Lead at StarkWare, and the other one was the ScalingX - The hunt for X hackathon prize where this project won as the best development tool for Cairo-1, below is the ScalingX certificates.
 
-![certificate](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/certificate.jpg?raw=true)
+![certificate](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/certificate.jpg?raw=true = 200x200)
 
 ![badge](https://github.com/esdras-santos/WarpVS/blob/main/readme-media/certificates-badge.png?raw=true)
 
